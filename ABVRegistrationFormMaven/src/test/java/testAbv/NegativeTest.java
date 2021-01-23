@@ -32,7 +32,7 @@ public class NegativeTest {
 		/*
 		 * I take data from myData.properties
 		 */
-		FileInputStream myFile = new FileInputStream("C:\\Users\\plame\\eclipse-workspace\\ABVRegistrationFormMaven\\src\\test\\resources\\resources\\myData.properties");
+		FileInputStream myFile = new FileInputStream("C:\\Users\\plame\\git\\StelaKrumovaAbvProject\\ABVRegistrationFormMaven\\src\\test\\resources\\resources\\myData.properties");
 		prop.load(myFile);
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		driver.manage().window().maximize();
