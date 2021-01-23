@@ -27,12 +27,13 @@ public class NegativeTest {
 	@BeforeTest
 	public void setUp() throws IOException {
 
-		System.setProperty("webdriver.chrome.driver","C:\\Users\\plame\\SELENIUM JARS\\chromedriver3.exe"); 
+		System.setProperty("webdriver.chrome.driver",System.getProperty("user.dir")+"\\src\\test\\resources\\resources\\chromedriver3.exe"); 
 		driver = new ChromeDriver();
 		/*
 		 * I take data from myData.properties
 		 */
-		FileInputStream myFile = new FileInputStream("C:\\Users\\plame\\git\\StelaKrumovaAbvProject\\ABVRegistrationFormMaven\\src\\test\\resources\\resources\\myData.properties");
+		
+		FileInputStream myFile = new FileInputStream(System.getProperty("user.dir")+"\\src\\test\\resources\\resources\\myData.properties");
 		prop.load(myFile);
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		driver.manage().window().maximize();

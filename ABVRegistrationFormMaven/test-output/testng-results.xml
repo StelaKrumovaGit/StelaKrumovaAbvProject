@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="9" passed="9" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-01-22T12:23:35 EET" name="Default suite" finished-at="2021-01-22T12:23:53 EET" duration-ms="17796">
+  <suite started-at="2021-01-23T14:01:55 EET" name="Default suite" finished-at="2021-01-23T14:02:13 EET" duration-ms="18367">
     <groups>
     </groups>
-    <test started-at="2021-01-22T12:23:35 EET" name="Default test" finished-at="2021-01-22T12:23:53 EET" duration-ms="17796">
+    <test started-at="2021-01-23T14:01:55 EET" name="Default test" finished-at="2021-01-23T14:02:13 EET" duration-ms="18367">
       <class name="testAbv.NegativeTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:testAbv.NegativeTest@1649b0e6]" started-at="2021-01-22T12:23:35 EET" name="setUp" finished-at="2021-01-22T12:23:47 EET" duration-ms="11369" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testAbv.NegativeTest@1649b0e6]" started-at="2021-01-23T14:01:55 EET" name="setUp" finished-at="2021-01-23T14:02:07 EET" duration-ms="11567" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="openRegistration()[pri:0, instance:testAbv.NegativeTest@1649b0e6]" started-at="2021-01-22T12:23:47 EET" name="openRegistration" finished-at="2021-01-22T12:23:48 EET" duration-ms="1612" status="PASS">
+        <test-method is-config="true" signature="openRegistration()[pri:0, instance:testAbv.NegativeTest@1649b0e6]" started-at="2021-01-23T14:02:07 EET" name="openRegistration" finished-at="2021-01-23T14:02:08 EET" duration-ms="1491" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openRegistration -->
-        <test-method signature="emptyFieldValidation()[pri:1, instance:testAbv.NegativeTest@1649b0e6]" started-at="2021-01-22T12:23:48 EET" name="emptyFieldValidation" finished-at="2021-01-22T12:23:49 EET" duration-ms="357" status="PASS">
+        <test-method signature="emptyFieldValidation()[pri:1, instance:testAbv.NegativeTest@1649b0e6]" started-at="2021-01-23T14:02:08 EET" name="emptyFieldValidation" finished-at="2021-01-23T14:02:09 EET" duration-ms="608" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- emptyFieldValidation -->
-        <test-method signature="checkTelField(java.lang.String)[pri:2, instance:testAbv.NegativeTest@1649b0e6]" started-at="2021-01-22T12:23:49 EET" name="checkTelField" data-provider="invalidData" finished-at="2021-01-22T12:23:49 EET" duration-ms="224" status="PASS">
+        <test-method signature="checkTelField(java.lang.String)[pri:2, instance:testAbv.NegativeTest@1649b0e6]" started-at="2021-01-23T14:02:09 EET" name="checkTelField" data-provider="invalidData" finished-at="2021-01-23T14:02:09 EET" duration-ms="231" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -30,7 +30,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkTelField -->
-        <test-method signature="checkTelField(java.lang.String)[pri:2, instance:testAbv.NegativeTest@1649b0e6]" started-at="2021-01-22T12:23:49 EET" name="checkTelField" data-provider="invalidData" finished-at="2021-01-22T12:23:49 EET" duration-ms="114" status="PASS">
+        <test-method signature="checkTelField(java.lang.String)[pri:2, instance:testAbv.NegativeTest@1649b0e6]" started-at="2021-01-23T14:02:09 EET" name="checkTelField" data-provider="invalidData" finished-at="2021-01-23T14:02:09 EET" duration-ms="119" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -41,7 +41,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkTelField -->
-        <test-method signature="checkTelField(java.lang.String)[pri:2, instance:testAbv.NegativeTest@1649b0e6]" started-at="2021-01-22T12:23:49 EET" name="checkTelField" data-provider="invalidData" finished-at="2021-01-22T12:23:49 EET" duration-ms="159" status="PASS">
+        <test-method signature="checkTelField(java.lang.String)[pri:2, instance:testAbv.NegativeTest@1649b0e6]" started-at="2021-01-23T14:02:09 EET" name="checkTelField" data-provider="invalidData" finished-at="2021-01-23T14:02:09 EET" duration-ms="183" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -52,7 +52,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkTelField -->
-        <test-method signature="checkTelField(java.lang.String)[pri:2, instance:testAbv.NegativeTest@1649b0e6]" started-at="2021-01-22T12:23:49 EET" name="checkTelField" data-provider="invalidData" finished-at="2021-01-22T12:23:49 EET" duration-ms="131" status="PASS">
+        <test-method signature="checkTelField(java.lang.String)[pri:2, instance:testAbv.NegativeTest@1649b0e6]" started-at="2021-01-23T14:02:09 EET" name="checkTelField" data-provider="invalidData" finished-at="2021-01-23T14:02:09 EET" duration-ms="135" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -63,7 +63,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkTelField -->
-        <test-method signature="checkAbvUserField(java.lang.String)[pri:3, instance:testAbv.NegativeTest@1649b0e6]" started-at="2021-01-22T12:23:49 EET" name="checkAbvUserField" data-provider="invalidData" finished-at="2021-01-22T12:23:49 EET" duration-ms="173" status="PASS">
+        <test-method signature="checkAbvUserField(java.lang.String)[pri:3, instance:testAbv.NegativeTest@1649b0e6]" started-at="2021-01-23T14:02:09 EET" name="checkAbvUserField" data-provider="invalidData" finished-at="2021-01-23T14:02:10 EET" duration-ms="211" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -74,7 +74,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkAbvUserField -->
-        <test-method signature="checkAbvUserField(java.lang.String)[pri:3, instance:testAbv.NegativeTest@1649b0e6]" started-at="2021-01-22T12:23:49 EET" name="checkAbvUserField" data-provider="invalidData" finished-at="2021-01-22T12:23:49 EET" duration-ms="124" status="PASS">
+        <test-method signature="checkAbvUserField(java.lang.String)[pri:3, instance:testAbv.NegativeTest@1649b0e6]" started-at="2021-01-23T14:02:10 EET" name="checkAbvUserField" data-provider="invalidData" finished-at="2021-01-23T14:02:10 EET" duration-ms="127" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -85,7 +85,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkAbvUserField -->
-        <test-method signature="invalidRegistrationIndex(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:4, instance:testAbv.NegativeTest@1649b0e6]" started-at="2021-01-22T12:23:49 EET" name="invalidRegistrationIndex" data-provider="invalidData" finished-at="2021-01-22T12:23:50 EET" duration-ms="777" status="PASS">
+        <test-method signature="invalidRegistrationIndex(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:4, instance:testAbv.NegativeTest@1649b0e6]" started-at="2021-01-23T14:02:10 EET" name="invalidRegistrationIndex" data-provider="invalidData" finished-at="2021-01-23T14:02:11 EET" duration-ms="850" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -121,7 +121,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- invalidRegistrationIndex -->
-        <test-method signature="invalidRegistrationIndex(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:4, instance:testAbv.NegativeTest@1649b0e6]" started-at="2021-01-22T12:23:50 EET" name="invalidRegistrationIndex" data-provider="invalidData" finished-at="2021-01-22T12:23:52 EET" duration-ms="1851" status="PASS">
+        <test-method signature="invalidRegistrationIndex(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:4, instance:testAbv.NegativeTest@1649b0e6]" started-at="2021-01-23T14:02:11 EET" name="invalidRegistrationIndex" data-provider="invalidData" finished-at="2021-01-23T14:02:13 EET" duration-ms="1945" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -157,7 +157,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- invalidRegistrationIndex -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testAbv.NegativeTest@1649b0e6]" started-at="2021-01-22T12:23:52 EET" name="tearDown" finished-at="2021-01-22T12:23:53 EET" duration-ms="835" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testAbv.NegativeTest@1649b0e6]" started-at="2021-01-23T14:02:13 EET" name="tearDown" finished-at="2021-01-23T14:02:13 EET" duration-ms="810" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

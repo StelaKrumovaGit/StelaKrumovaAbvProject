@@ -5,10 +5,12 @@
     <classes>
       <class name="testAbv.NegativeTest">
         <methods>
-          <include name="invalidRegistrationIndex" invocation-numbers="0 1"/>
+          <include name="invalidRegistrationIndex"/>
           <include name="openRegistration"/>
+          <include name="emptyFieldValidation"/>
           <include name="tearDown"/>
-          <include name="checkAbvUserField" invocation-numbers="2"/>
+          <include name="checkTelField"/>
+          <include name="checkAbvUserField"/>
           <include name="setUp"/>
         </methods>
       </class> <!-- testAbv.NegativeTest -->
